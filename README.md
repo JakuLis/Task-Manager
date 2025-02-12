@@ -5,17 +5,25 @@ Task Manager to aplikacja konsolowa napisana w Javie, służąca do zarządzania
 📋 Funkcjonalności
 
 Dodawanie zadania: Tworzenie nowego zadania, które zawiera nazwę, opis, status i datę.
+
 Usuwanie zadania: Możliwość usunięcia istniejącego zadania z listy po jego numerze ID.
+
 Aktualizacja zadania: Edycja istniejących informacji o zadaniu, takich jak nazwa oraz opis.
+
 Wyświetlanie listy zadań: Przegląd wszystkich zadań w czytelnej formie konsolowej.
 
 📦 Wykorzystywane technologie
 
 Java: Implementacja projektu.
-Zasady OOP: W projekcie zaimplementowano wszystkie kluczowe filary programowania obiektowego:
+
+Zasady OOP: W projekcie zaimplementowano wszystkie kluczowe filary programowania obiektowego.
+
 Abstrakcja: Zadania są reprezentowane jako obiekty klasy Task.
+
 Dziedziczenie: Możliwość rozszerzenia w przyszłości (np. inne typy zadań).
+
 Polimorfizm: Możliwość różnej implementacji w ramach systemu zadań.
+
 Enkapsulacja: Użycie prywatnych pól i metod dostępnych przez gettery i settery.
 
 ⚙️ Jak uruchomić projekt?
@@ -32,8 +40,10 @@ Uruchom klasę Main.java, aby rozpocząć korzystanie z aplikacji.
 
 🧩 Struktura projektu
 
-Task: Klasa reprezentująca pojedyncze zadanie. Przechowuje takie informacje jak:
+Task: Klasa reprezentująca pojedyncze zadanie. 
+
 TaskManager: Klasa odpowiedzialna za zarządzanie listą zadań. Obsługuje operacje CRUD (Create, Read, Update, Delete).
+
 Main: Punkt wejścia do aplikacji. Obsługuje interakcję użytkownika przez konsolę i wywołuje odpowiednie metody klasy TaskManager.
 
 📚 Przykład działania
